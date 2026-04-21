@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-netstat -lpn
-netstat -lupn
+netstat -tulpn 2>/dev/null
