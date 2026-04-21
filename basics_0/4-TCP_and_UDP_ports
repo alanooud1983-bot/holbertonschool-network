@@ -2,5 +2,3 @@
 # Display all listening TCP and UDP ports with PID and program name
 
 netstat -lpn
-# Alternatively, you can use ss command which is more modern and faster
-ss -lpn
