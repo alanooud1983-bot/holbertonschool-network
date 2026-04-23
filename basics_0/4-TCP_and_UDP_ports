@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-netstat -tulpn 2>/dev/null
+# Displays listening sockets with PID and program names
+netstat -ltnupx
