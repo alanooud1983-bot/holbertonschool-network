@@ -2,3 +2,4 @@
 # Displays listening sockets with PID and program names
 
 netstat -ltnupx | grep -E '^(tcp|udp)'
+
